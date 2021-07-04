@@ -1,0 +1,224 @@
+.dash-slide-heading{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.shop-slide-heading{
+    font-weight: 300;
+    line-height: 1.2;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    background-color: #080808ed;
+}
+.cs-dashboard{
+    padding-top: 4%;
+}
+
+.order-now-slide{
+    background: linear-gradient(240deg, #1f202200, #1b0d03);
+}
+.order-shop-slide{
+    background: linear-gradient(360deg, #000000fc, #1b0d03);
+}
+.cs-order-btn{
+    background: #0e0600;
+    color: #fff;
+}
+.cs-order-btn:hover{
+    background: #271101;
+    color: #fff;
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+}
+.cm-app-row{
+    height: inherit;
+    margin-right: 0;
+}
+.cm-main-header{
+    /* background: linear-gradient(180deg, #0f0a06, #190d04); */
+    background: linear-gradient(240deg, #000000, #2f0a01);
+}
+.cm-main-footer{
+    background: #000000;
+}
+.btn{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.cm-navbarDropdown{
+    color: #dde2e7;
+}
+
+.cm-navbar-dropdown-menu{
+    color: #dde2e7 !important;
+    background-color: #111314 !important;
+}
+
+.cm-navbar-dropdown-menu .dropdown-item{
+    color: #dde2e7 !important;
+    background-color: #111314 !important;
+}
+.cm-navbar-dropdown-menu .dropdown-item:hover{
+    color: #dde2e7 !important;
+    background-color: #1d1e20 !important;
+}
+.cm-navbar-li{
+    list-style-type: none;
+}
+.cs-alert-msg{
+    width: 400px;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+.alert-success {
+    color: #ecf3ee;
+    border: 0;
+    background: linear-gradient(240deg, #041e0a, #094a18);
+}
+.alert-danger {
+    color: #fff;
+    border: 0;
+    background: #270106;
+}
+
+.btn-light {
+    color: #f8f9fa;
+    background-color: #040405;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #081f0d;
+    border-color: #1e7e34;
+}
+
+#nav-loginTabContent .card{
+    background: linear-gradient(180deg, #000000, #090909);
+
+}
+#nav-loginTabContent .card-header{
+    background: linear-gradient(180deg, #000000, #2f0a01);
+
+}
+.cp-login-input {
+	background: #090200;
+	border-radius: 0;
+	color: #fff;
+    border: 1px solid #280901;
+}
+.cp-login-input:focus {
+	background: #090200;
+	border-radius: 0;
+	color: #fff;
+}
+
+.cs-login-content{
+    background-image: url(../images/4.jpg);
+    color: #d3cece;
+    background-repeat: round;
+    background-color: #080607;
+}
+
+.product-tiles{
+    background: linear-gradient(240deg, #000000, #0f0300);
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.product-tiles:hover{
+    background: linear-gradient(240deg, #2d0a01, #000000);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+.shop-tiles{
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+/*scroll css*/
+::-webkit-scrollbar {
+    width: 02px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+    border-radius: 10px;
+    background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: 270801; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #270801; 
+}
+
+.cm-table-header {
+    background: #260801;
+}
+
+.cm-zoom{
+    transition: transform .2s;
+}
+.cm-zoom:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+
+.wallet-amt{
+    border-bottom: 1px solid #e86143;
+    padding: 1%;
+}
+.cs-w-recharge-btn{
+    background: #270901;
+    color: #fff;
+    text-decoration: none;
+}
+.cs-w-withdrawal-btn{
+    background: #272116;
+    color: #fff;
+    text-decoration: none;
+}
+.cs-w-withdrawal-btn:hover{
+    background: #003515;
+    color: #fff;
+    text-decoration: none;
+}
+.cs-w-recharge-btn:hover{
+    background: #003515;
+    color: #fff;
+    text-decoration: none;
+}
+
+.order-now-bottom-slide {
+    background: linear-gradient(360deg, #1f202200, #1b0d03);
+}
+
+@media (min-width: 576px){
+
+    .modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+}
+
+textarea {
+    resize: none;
+  }

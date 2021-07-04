@@ -1,0 +1,14 @@
+.cm-content{
+    /* background: linear-gradient(180deg, #1f2022, #030303); */
+    background-image: url(../images/2.png);
+    color: #d3cece;
+    background-repeat: round;
+    background-color: #080607;
+}
+.cs-ad-content{
+    background: linear-gradient(180deg, #1f2022, #030303);
+    color: #fff;
+}
+.cm-home-page .jumbotron{
+    background-color: transparent;
+}

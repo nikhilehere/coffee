@@ -1,0 +1,53 @@
+.cm-login-navbar .navbar-brand,.nav-link{
+    /* background: red; */
+    color: #fff !important;
+}
+.cm-login-navbar{
+    background: linear-gradient(180deg, #1f2022, #030303);
+}
+.cm-login-card-header{
+    background: linear-gradient(180deg, #1f2022, #030303);
+    color: #fff;
+    font-weight: bold;
+}
+.cm-login-main{
+    background: linear-gradient(180deg, #1f2022, #030303);
+    height: 100vh;
+}
+.cm-login-card-body{
+    background: linear-gradient(180deg, #1f2022, #030303);
+    color: #fff;
+}
+.cm-login-container{
+    margin-top: 10%;
+}
+.cm-login-card{
+    border: 1px solid rgb(52 58 64);
+    background-color: #fff0;
+}
+.cm-login-card-body input{
+    background-color: #010101;
+    border: none;
+    border-radius: 0;
+    color: #f7f8f9;
+}
+.cm-login-card-body input:focus{
+    color: #e2e6eb;
+    background-color: #070808;
+    border-color: #18181a;
+    box-shadow: none;
+}
+.cm-login-welcome{
+    color:#a8a1a1;
+}
+.cm-login-btn{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+.cm-forgot-password-link{
+    padding-right: 0;
+    margin-top: 6%;
+    color: #8b8585;
+    float: right;
+}

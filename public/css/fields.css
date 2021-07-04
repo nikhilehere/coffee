@@ -1,0 +1,82 @@
+.cm-fields label{
+    font-size: 12px;
+}
+.cm-fields input{
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 0;
+    color: #f7f8f9;
+}
+.cm-fields select{
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 0;
+    color: #f7f8f9;
+}
+.cm-fields textarea{
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 0;
+    color: #f7f8f9;
+}
+.cm-fields input:focus{
+    color: #e2e6eb;
+    background-color: #070808;
+    border-color: #18181a;
+    box-shadow: none;
+}
+.cm-fields select:focus{
+    color: #e2e6eb;
+    background-color: #070808;
+    border-color: #18181a;
+    box-shadow: none;
+}
+.cm-fields textarea:focus{
+    color: #e2e6eb;
+    background-color: #070808;
+    border-color: #18181a;
+    box-shadow: none;
+}
+.cm-field-container {
+    background: #1a1a1a;
+    width: 95%;
+    padding: 2%;
+    margin-top: 2%;
+}
+.cm-field-title-row{
+    margin: 4% 0%;
+}
+.is-invalid-data{
+    border: 1px solid red !important;
+}
+.cm-field-error{
+    color: #df2323;
+    float: right;
+    font-size: 13px;
+}
+.cm-mandatory-fields{
+    color: #ee5959;
+}
+.cm-fields{
+    margin-top: 3%;
+    min-height: 300px;
+}
+.cm-field-btn-row button{
+    width:48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.cm-field-btn-row{
+    justify-content: center;
+}
+.back-to-table{
+    background: transparent;
+}
+
+.form-control-label {
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 0;
+    color: #f7f8f9;
+    line-height: 2;
+}

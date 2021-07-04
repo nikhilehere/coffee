@@ -1,0 +1,53 @@
+
+.cm-modal-content{
+    background: #1a1a1a;
+}
+.cm-cust-modal-content{
+    background: linear-gradient(360deg, #000000fc, #1b0d03);
+}
+.cm-modal-body label{
+    font-size: 12px;
+}
+.cm-modal-body input{
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 0;
+    color: #f7f8f9;
+}
+.cm-modal-body input:focus{
+    color: #e2e6eb;
+    background-color: #070808;
+    border-color: #18181a;
+    box-shadow: none;
+}
+.cm-modal-header .close{
+    color: #f9f4f4;
+}
+.cm-modal-header {
+    border-bottom: 1px solid #0d0d0d;
+}
+.cm-cust-modal-header {
+    border-bottom: 1px solid #0d0d0d;
+    background: linear-gradient(360deg, #100702, #1b0d03);
+}
+.cm-modal-footer {
+    border-top: 1px solid #0d0d0d;
+    padding: 3%;
+    justify-content: center;
+}
+.cm-modal-footer button {
+    border-radius: 0;
+}
+.cm-modal-body .cm-view-label{
+    background-color: #0d0d0d;
+    border: none;
+    border-radius: 0;
+    color: #f7f8f9;
+    font-size: 16px;
+}
+#deleteContactModal .cm-modal-body{
+    text-align: center;
+}
+.cm-alert-body{
+    text-align: center;
+}
