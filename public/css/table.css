@@ -105,6 +105,12 @@ background-color: #0d0d0d;
     background-color: #1d1e20;
     border-color: #050505;
 }
+.page-item .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #1d1e20;
+    border-color: #050505;
+}
 
 .dataTables_wrapper .dataTables_paginate .paginate_button {
     padding: 0;
