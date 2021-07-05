@@ -28,7 +28,8 @@ class OrdersController extends Controller
     {
         if (Auth::user()->isCustomer()) {
             if ($request->ajax()) {
-                $orders = Orders::with('OrderProduct','OrderCustomer','OrderStatus')->where('customer_id',3);
+                $customer = Customers::where('user_id',Auth::user()->id)->first();
+                $orders = Orders::with('OrderProduct','OrderCustomer','OrderStatus')->where('customer_id',$customer->id);
                 return Datatables::eloquent($orders)
                         ->addIndexColumn()
                         ->addColumn('product', function (Orders $orders) {
